@@ -49,7 +49,7 @@ export const DATA = {
       },
       X: {
         name: "X",
-        url: "https://x.com/iam_henric",
+        url: "https://x.com/pharm_ack",
         icon: Icons.x,
 
         navbar: true,
@@ -108,34 +108,7 @@ export const DATA = {
       // video:
       //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
-    {
-      title: "ResumeBuilder",
-      href: "https://ph-resume.vercel.app/",
-      dates: "Sept 2024 - Present",
-      active: true,
-      description:
-        "Create professional resumes in minutes, not hours. Stand out from the crowd and land your dream job.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Context Api",
-        "Shadcn UI",
-        "NextAuth",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://ph-resume.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/resume.png",
-      // video:
-      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
-    },
+    
     {
       title: "CureQuest",
       href: "https://cure-quest-ph.vercel.app/",
@@ -161,6 +134,34 @@ export const DATA = {
         },
       ],
       image: "/curequest.png",
+      // video:
+      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+    },
+    {
+      title: "ResumeBuilder",
+      href: "https://ph-resume.vercel.app/",
+      dates: "Sept 2024 - Present",
+      active: true,
+      description:
+        "Create professional resumes in minutes, not hours. Stand out from the crowd and land your dream job.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "PostgreSQL",
+        "Prisma",
+        "TailwindCSS",
+        "Context Api",
+        "Shadcn UI",
+        "NextAuth",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://ph-resume.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/resume.png",
       // video:
       //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
