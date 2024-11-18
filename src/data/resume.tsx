@@ -83,7 +83,7 @@ export const DATA = {
     {
       title: "Health Symptom Analyzer",
       href: "https://symptom-analyzer.vercel.app/",
-      dates: "Sept 2024 - Present",
+      //dates: "Sept 2024 - Present",
       active: true,
       description:
         "Get instant insights about your health symptoms using advanced artificial intelligence. Fast, accurate, and always available.",
@@ -112,7 +112,7 @@ export const DATA = {
     {
       title: "CureQuest",
       href: "https://cure-quest-ph.vercel.app/",
-      dates: "June 2024 - June 2024",
+      //dates: "June 2024 - June 2024",
       active: true,
       description:
         "CureQuest: A non-profit platform dedicated to funding and promoting medical research. The site features detailed information on research initiatives, latest news updates, donation options, and partnerships with leading medical institutions.",
@@ -140,7 +140,7 @@ export const DATA = {
     {
       title: "ResumeBuilder",
       href: "https://ph-resume.vercel.app/",
-      dates: "Sept 2024 - Present",
+      //dates: "Sept 2024 - Present",
       active: true,
       description:
         "Create professional resumes in minutes, not hours. Stand out from the crowd and land your dream job.",
