@@ -114,7 +114,7 @@ export default function Page() {
                   key={project.title}
                   title={project.title}
                   description={project.description}
-                  dates={project.dates}
+                  //dates={project.dates}
                   tags={project.technologies}
                   image={project.image}
                   links={project.links}
