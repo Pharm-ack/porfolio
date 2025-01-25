@@ -37,7 +37,7 @@ export const ResumeCard = ({
   };
 
   return (
-    <div className="block cursor-pointer" onClick={handleClick}>
+    <div className="block space-y-5 cursor-pointer" onClick={handleClick}>
       <Card className="flex">
         <div className="flex-none">
           <Avatar className="border size-12 m-auto bg-muted-background dark:bg-foreground">

@@ -2,12 +2,11 @@ import { Icons } from "@/components/icons";
 import { CodeIcon, HomeIcon, NotebookIcon, PencilLine } from "lucide-react";
 
 export const DATA = {
-  name: "Shina",
+  name: "Oluwashina",
   initials: "PH",
   url: "https://pharmack.vercel.app",
   location: "Nigeria",
-  description:
-    "Software developer passionate about crafting seamless user experiences, I focus on delivering modern, clean, and efficient full-stack solutions. Let’s collaborate to transform your digital vision into reality",
+  description: "Fullstack Developer",
   summary:
     "As a passionate software developer, I specialize in building efficient, user-friendly web applications. My experience in web development has provided me with a strong foundation in modern technologies, frameworks, and best practices, allowing me to deliver high-quality solutions.",
   avatarUrl: "/me.jpg",
@@ -81,6 +80,34 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Jersey Vault",
+      href: "https://jersey-vault.vercel.app/",
+      //dates: "Sept 2024 - Present",
+      active: true,
+      description:
+        "Jersey Vault is a sleek eCommerce platform for sports enthusiasts, offering a wide range of authentic sports jerseys. With intuitive navigation, responsive design, and secure checkout, it ensures a seamless shopping experience. Customers can explore categories, view detailed product pages, and shop with ease.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "PostgreSQL",
+        "Prisma",
+        "TailwindCSS",
+        "Paystack",
+        "Shadcn UI",
+        "NextAuth",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://jersey-vault.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/jersey.png",
+      // video:
+      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+    },
+    {
       title: "Health Symptom Analyzer",
       href: "https://symptom-analyzer.vercel.app/",
       //dates: "Sept 2024 - Present",
@@ -108,7 +135,7 @@ export const DATA = {
       // video:
       //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
-    
+
     {
       title: "CureQuest",
       href: "https://cure-quest-ph.vercel.app/",
@@ -134,34 +161,6 @@ export const DATA = {
         },
       ],
       image: "/curequest.png",
-      // video:
-      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
-    },
-    {
-      title: "ResumeBuilder",
-      href: "https://ph-resume.vercel.app/",
-      //dates: "Sept 2024 - Present",
-      active: true,
-      description:
-        "Create professional resumes in minutes, not hours. Stand out from the crowd and land your dream job.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Context Api",
-        "Shadcn UI",
-        "NextAuth",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://ph-resume.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/resume.png",
       // video:
       //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },

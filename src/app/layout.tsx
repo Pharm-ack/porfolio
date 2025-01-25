@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   },
   description: DATA.description,
   openGraph: {
-    title: `${DATA.name}`,
+    title: `${DATA.name} Portofolio`,
     description: DATA.description,
     url: DATA.url,
     siteName: `${DATA.name}`,
