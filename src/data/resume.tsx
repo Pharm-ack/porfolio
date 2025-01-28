@@ -6,7 +6,7 @@ export const DATA = {
   initials: "PH",
   url: "https://pharmack.vercel.app",
   location: "Nigeria",
-  description: "Fullstack Developer",
+  description: "Web Developer",
   summary:
     "As a passionate software developer, I specialize in building efficient, user-friendly web applications. My experience in web development has provided me with a strong foundation in modern technologies, frameworks, and best practices, allowing me to deliver high-quality solutions.",
   avatarUrl: "/me.jpg",
