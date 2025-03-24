@@ -137,30 +137,27 @@ export const DATA = {
     },
 
     {
-      title: "CureQuest",
-      href: "https://cure-quest-ph.vercel.app/",
+      title: "Paxify",
+      href: "https://paxify.org/",
       //dates: "June 2024 - June 2024",
       active: true,
       description:
-        "CureQuest: A non-profit platform dedicated to funding and promoting medical research. The site features detailed information on research initiatives, latest news updates, donation options, and partnerships with leading medical institutions.",
+        "Paxify: Your Comprehensive Mental Health Platform. Discover anonymous support, first aid info, therapist connections, and a nurturing community for healing.",
       technologies: [
         "Next.js",
         "Typescript",
-        "PostgreSQL",
-        "Prisma",
         "TailwindCSS",
-        "Stripe",
+        "framer-motion",
         "Shadcn UI",
-        "NextAuth",
       ],
       links: [
         {
           type: "Website",
-          href: "https://cure-quest-ph.vercel.app/",
+          href: "https://paxify.org/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/curequest.png",
+      image: "/paxify.jpg",
       // video:
       //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
