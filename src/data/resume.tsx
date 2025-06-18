@@ -161,5 +161,29 @@ export const DATA = {
       // video:
       //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
+    {
+      title: "Veriscope",
+      href: "https://www.veriscopedigital.com/",
+      //dates: "Sept 2024 - Present",
+      active: true,
+      description:
+        "Veriscope help businesses attract, convert, and retain customers with performance-based marketing. Your customers are online. Let's help them find you.",
+      technologies: [
+        "Nuxt.js",
+        "Typescript",
+        "TailwindCSS",
+        "Sanity CMS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.veriscopedigital.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/veriscope.png",
+      // video:
+      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+    },
   ],
 } as const;
