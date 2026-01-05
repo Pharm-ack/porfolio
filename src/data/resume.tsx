@@ -80,6 +80,64 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "CozaConnect — COZA Buddy",
+      href: "https://www.cozaconnect.com/",
+      //dates: "Sept 2024 - Present",
+      active: true,
+      description:
+        "A community engagement platform designed to help users connect, grow, and stay spiritually accountable within the COZA network. With user-centric signup, personal buddy support, and seamless navigation, it makes joining and participating in community life effortless and meaningful.",
+      technologies: [
+        "Next.js",
+        "Shadcn UI",
+        "TailwindCSS",
+        "Typescript",
+        "MongoDB",
+        "Prisma",
+        "Nodejs",
+        "Expressjs",
+        "Firebase",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.cozaconnect.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/coza-buddy.png",
+      // video:
+      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+    },
+    {
+      title: "CozaConnect - COZA Connect",
+      href: "https://ft.cozaconnect.com/",
+      //dates: "Sept 2024 - Present",
+      active: true,
+      description:
+        "A community engagement platform designed to help users connect, grow, and stay spiritually accountable within the COZA network. With user-centric signup, personal buddy support, and seamless navigation, it makes joining and participating in community life effortless and meaningful.",
+      technologies: [
+        "Next.js",
+        "Shadcn UI",
+        "TailwindCSS",
+        "Typescript",
+        "Prisma",
+        "Nodejs",
+        "Expressjs",
+        "MongoDB",
+        "Firebase",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://ft.cozaconnect.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/coza-connect.png",
+      // video:
+      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+    },
+    {
       title: "Jersey Vault",
       href: "https://jersey-vault.vercel.app/",
       //dates: "Sept 2024 - Present",
@@ -136,54 +194,54 @@ export const DATA = {
       //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
 
-    {
-      title: "Paxify",
-      href: "https://paxify.org/",
-      //dates: "June 2024 - June 2024",
-      active: true,
-      description:
-        "Paxify: Your Comprehensive Mental Health Platform. Discover anonymous support, first aid info, therapist connections, and a nurturing community for healing.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "TailwindCSS",
-        "framer-motion",
-        "Shadcn UI",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://paxify.org/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/paxify.jpg",
-      // video:
-      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
-    },
-    {
-      title: "Veriscope",
-      href: "https://www.veriscopedigital.com/",
-      //dates: "Sept 2024 - Present",
-      active: true,
-      description:
-        "Veriscope help businesses attract, convert, and retain customers with performance-based marketing. Your customers are online. Let's help them find you.",
-      technologies: [
-        "Nuxt.js",
-        "Typescript",
-        "TailwindCSS",
-        "Sanity CMS",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://www.veriscopedigital.com/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/veriscope.png",
-      // video:
-      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
-    },
+    // {
+    //   title: "Paxify",
+    //   href: "https://paxify.org/",
+    //   //dates: "June 2024 - June 2024",
+    //   active: true,
+    //   description:
+    //     "Paxify: Your Comprehensive Mental Health Platform. Discover anonymous support, first aid info, therapist connections, and a nurturing community for healing.",
+    //   technologies: [
+    //     "Next.js",
+    //     "Typescript",
+    //     "TailwindCSS",
+    //     "framer-motion",
+    //     "Shadcn UI",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://paxify.org/",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //   ],
+    //   image: "/paxify.jpg",
+    //   // video:
+    //   //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+    // },
+    // {
+    //   title: "Veriscope",
+    //   href: "https://www.veriscopedigital.com/",
+    //   //dates: "Sept 2024 - Present",
+    //   active: true,
+    //   description:
+    //     "Veriscope help businesses attract, convert, and retain customers with performance-based marketing. Your customers are online. Let's help them find you.",
+    //   technologies: [
+    //     "Nuxt.js",
+    //     "Typescript",
+    //     "TailwindCSS",
+    //     "Sanity CMS",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://www.veriscopedigital.com/",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //   ],
+    //   image: "/veriscope.png",
+    //   // video:
+    //   //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+    // },
   ],
 } as const;
