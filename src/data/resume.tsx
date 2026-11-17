@@ -4,23 +4,27 @@ import { CodeIcon, HomeIcon, NotebookIcon, PencilLine } from "lucide-react";
 export const DATA = {
   name: "Oluwashina",
   initials: "PH",
-  url: "https://pharmack.vercel.app",
+  url: "https://pharmack.tech",
   location: "Nigeria",
   description: "Full Stack Developer",
   summary:
     "As a passionate software developer, I specialize in building efficient, user-friendly web applications. My experience in web development has provided me with a strong foundation in modern technologies, frameworks, and best practices, allowing me to deliver high-quality solutions.",
-  avatarUrl: "/me.jpg",
+  avatarUrl: "/me.jpeg",
   skills: [
     "React",
     "Next.js",
     "Typescript",
     "Node.js",
     "Express",
+    "Go",
+    "GORM",
+    "Gin",
     "Git",
     "Github",
     "Prisma",
     "MongoDB",
     "Postgres",
+    "Redis",
     "Docker",
   ],
   navbar: [
@@ -41,7 +45,7 @@ export const DATA = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://ng.linkedin.com/in/oluwashina-olumofe-80ab13201",
+        url: "https://ng.linkedin.com/in/pharm-ack",
         icon: Icons.linkedin,
 
         navbar: true,
@@ -64,18 +68,11 @@ export const DATA = {
   },
   education: [
     {
-      school: "Millennium College",
-      degree: "ND Pharmacy Tech",
-      logoUrl: "/mille.jpg",
-      start: "2016",
-      end: "2019",
-    },
-    {
       school: "Fitzzy System Institute",
       degree: "Cetificate in System Engineer",
       logoUrl: "/Fitzzy.jpg",
-      start: "2016",
-      end: "2014",
+      start: "2014",
+      end: "2016",
     },
   ],
   projects: [
